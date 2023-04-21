@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Cores */
+
+:root {
+  --primary-color: #E83F5B;
+  --background: #F5F5FA;
+  --card-color: #FFFFFF;
+  --text-color: #41414D;
+  --text-color-light: #A8A8B3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background: var(--background);
+}
+
+button {
+  cursor: pointer;
+}
