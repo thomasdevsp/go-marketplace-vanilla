@@ -1,0 +1,107 @@
+/* Textos */
+
+.card-price-text {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.172rem;
+}
+
+.card-title-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.cart-text {
+  color: var(--card-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.026rem;
+}
+
+.cart-price-text {
+  color: var(--card-color);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.465rem;
+}
+
+.sub-text-card {
+  color: var(--text-color-light);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 0.879rem;
+}
+
+/* Principais elementos */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.5rem;
+}
+
+.content-page {
+  height: calc(100% - 8rem);
+  overflow: hidden auto;
+  padding: 0 1.5rem;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.footer .icons-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer .price-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Componentes */
+
+.grid-card-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.card-product {
+  background: var(--card-color);
+  height: 15.063rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.card-product .chair {
+  width: 100%;
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+.card-product .plus-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-product .icon-plus-lite {
+  width: 10px;
+  height: 10px;
+}

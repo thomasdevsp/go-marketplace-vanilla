@@ -19,7 +19,11 @@
 }
 
 body {
-  background: var(--background);
+  background: #d4d4d4;
+  height: 100vh;
+  overflow: hidden;
+  max-width: 43rem;
+  margin: 0 auto;
 }
 
 button {
